@@ -1,1 +1,17 @@
-<Solution />
+<Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path=".env" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="ServiceFlow.API/ServiceFlow.API.csproj" />
+    <Project Path="ServiceFlow.Application/ServiceFlow.Application.csproj" />
+    <Project Path="ServiceFlow.Domain/ServiceFlow.Domain.csproj" />
+    <Project Path="ServiceFlow.Infrastructure/ServiceFlow.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="ServiceFlow.ArchitectureTests/ServiceFlow.ArchitectureTests.csproj" />
+    <Project Path="ServiceFlow.IntegrationTests/ServiceFlow.IntegrationTests.csproj" />
+    <Project Path="ServiceFlow.UnitTests/ServiceFlow.UnitTests.csproj" />
+  </Folder>
+</Solution>

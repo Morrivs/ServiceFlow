@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceFlow.Domain\ServiceFlow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

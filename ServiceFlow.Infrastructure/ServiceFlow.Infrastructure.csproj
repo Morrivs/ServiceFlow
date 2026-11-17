@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceFlow.Application\ServiceFlow.Application.csproj" />
+    <ProjectReference Include="..\ServiceFlow.Domain\ServiceFlow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
